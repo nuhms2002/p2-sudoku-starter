@@ -13,8 +13,25 @@
 // A puzzle is complete if it can be completed with no 0s in it
 // If complete, a puzzle is valid if all rows/columns/boxes have numbers from 1
 // to psize For incomplete puzzles, we cannot say anything about validity
+int size;
+bool legal;
+int **copyofGrid;
+
+typedef struct {
+  int row;
+  int col;
+  int subRowSize;
+} paramaters;
+
 void checkPuzzle(int psize, int **grid, bool *complete, bool *valid) {
   // YOUR CODE GOES HERE and in HELPER FUNCTIONS
+  legal = true;
+  size = psize;
+  legal = true;
+
+  
+
+
   *valid = true;
   *complete = true;
 }
