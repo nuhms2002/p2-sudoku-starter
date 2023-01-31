@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <string.h>
 //#include <string.h>
 
 // takes puzzle size and grid[][] representing sudoku puzzle
